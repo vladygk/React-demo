@@ -1,3 +1,16 @@
 body{
   font-family: Aboreto,sans-serif;
+  background-color: grey;
 }
+
+#root>h1{
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly ;
+}
+
