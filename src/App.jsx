@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 
-import './App.css'
- 
-function App(props) {
-  
-return (<h1>{props.name}</h1>);
-  
+function App(){
+    return <>
+            <Navbar/>
+            <Main/>
+        </>
 }
-export default App
+
+export default App;
